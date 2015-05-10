@@ -1,0 +1,527 @@
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
+	display:block; /*untuk memblok sebuah text*/
+}
+mark, rp, rt, ruby, summary, time {
+	display:inline; /*untuk menanpikan tampilan inline*/
+}
+.left {
+	float:left; /*untuk tampilan float  kiri*/
+}
+.right {
+	float:right;/*untuk tampilan float  kanan*/
+}
+.kotak{
+	float: right;/*untuk tampilan float  kanan*/
+}
+.wrapper {
+	width:100%; /*untuk mengatur lebar div*/
+	overflow:hidden; /*untuk menyembunyikan tampilan yang di sembunyikan*/
+}
+.Log {
+	width:100%;/*untuk mengatur lebar div*/
+	overflow:hidden;/*untuk menyembunyikan tampilan yang di sembunyikan*/
+	font-size: 20px; /*untuk mengatur ukuran font tertentu*/
+}
+body {
+	background:url(../images/bg.jpg) top center no-repeat #000; /*untuk memasukan gambar dengan ukuran dan tidak di ulang*/
+	border:0; /*untuk mengatur tebal border*/
+	font:14px Arial, Helvetica, sans-serif; /*untuk mengatur ukuran font dan jenis font*/
+	color:#000; /*untuk mengatur warna font*/
+	line-height:20px; /*untuk memberi garis panjang dan ukuran*/
+}
+.inner_copy, .inner_copy a {
+	border:0; /*untuk mengatur tebal border*/
+	float:right;/*untuk tampilan float  kanan*/
+	background:#fff; /*untk memberi warna background:*/ 
+	color:#f00;/*untuk mengatur warna font*/
+	width:50%;/*untuk mengatur lebar div*/
+	line-height:10px;/*untuk memberi garis panjang dan ukuran*/
+	font-size:10px;/*untuk mengatur ukuran font tertentu*/
+	margin:-220% 0 0 0; /*untuk mengatur jarak margin: */
+	overflow:hidden;/*untuk menyembunyikan tampilan yang di sembunyikan*/
+	padding:0;/*untuk mengatur jarak paddingn: */
+}
+.css3 {
+	border-radius:8px; /*untuk mengatur tebal border yang bertipe radius*/
+	-moz-border-radius:8px; /*untuk menampilkan pada browser mozila*/
+	-webkit-border-radius:8px;/*untuk menampilkan pada browser mozilawebkit*/
+	box-shadow:0 0 4px rgba(0, 0, 0, .4); /*untuk menampilkan box-shadow:*/ 
+	-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);/*untuk menampilkan pada browser mozila*/
+	-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);/*untuk menampilkan pada browser mozilawebkit*/
+	position:relative; /*untuk mengatur position relative*/
+}
+.main {
+	margin:0 auto;/*untuk mengatur jarak margin: */
+	width:920px;/*untuk mengatur lebar div*/
+}
+a {
+	color:#ab0000;/*untuk mengatur warna font*/
+	text-decoration:underline; /*untuk memberi text yang bertipe underline*/
+	outline:none; /*untuk memberi text outline none*/
+}
+a:hover {
+	text-decoration:none;/*untuk memberi text yang bertipe underline*/
+}
+h1 {
+	padding:98px 0 0 72px;/*untuk mengatur jarak paddingn: */
+}
+h2 {
+	font-size:34px;/*untuk mengatur ukuran font tertentu*/
+	color:#222;/*untuk mengatur warna font*/
+	line-height:55px;/*untuk memberi garis panjang dan ukuran*/
+	background:url(../images/bg_box1.png) 0 0 no-repeat;/*untuk memasukan gambar dengan ukuran dan tidak di ulang*/
+	padding-left:22px; /*untuk memberi ukuran jarak padding kiri*/
+	display:block;/*untuk memblok sebuah text*/
+	overflow:hidden;/*untuk menyembunyikan tampilan yang di sembunyikan*/
+}
+h2 span {
+	font-size:30px;/*untuk mengatur ukuran font tertentu*/
+}
+h3 {
+	margin-left:21px;/*untuk mengatur jarak margin kiri dengan ukuran 21px*/
+	background:url(../images/latest_works.png) no-repeat;/*untuk memasukan gambar dengan ukuran dan tidak di ulang*/
+	width:191px;/*untuk mengatur lebar div*/
+	height:86px;/*untuk mengatur panjang div*/
+	text-indent:-9999px;
+	margin-bottom:13px; /*untuk memberi jarak margin bawah dengan ukuran 13px*/
+}
+h4 {
+	background:url(../images/unpas.png) right 0 no-repeat;/*untuk memasukan gambar dengan ukuran dan tidak di ulang*/
+	font-size:36px;/*untuk mengatur ukuran font tertentu*/
+	color:#000;/*untuk mengatur warna font*/
+	height:61px;/*untuk mengatur panjang div*/
+	line-height:55px;/*untuk memberi garis panjang dan ukuran*/
+	letter-spacing:-2px;
+	padding-left:45px; /*untuk memberi jarak padding kiri*/
+}
+h5 {
+	font-size:30px; /*untuk memberi ukuran font*/
+	line-height:1.2em;/*untuk memberi garis panjang dan ukuran*/
+	color:#fff;/*untuk mengatur warna font*/
+	padding:124px 0 14px 0;/* untuk memberi ukuran padding: */
+}
+p {
+	padding-bottom:20px;/*untuk memberi jarak margin bawah*/
+}
+header {
+	width:100%;/*untuk mengatur lebar div*/
+	height:377px;/*untuk mengatur panjang div*/
+	overflow:hidden;/*untuk menyembunyikan tampilan yang di sembunyikan*/
+}
+#logo {
+	display:block;
+	background:url(../images/pemrograman-web.png) no-repeat;/*untuk memasukan gambar dengan ukuran dan tidak di ulang*/
+	width:459px;/*untuk mengatur lebar div*/
+	height:80px;/*untuk mengatur panjang div*/
+	text-indent:-9999px; /*untuk memberi posisi sebuah text atau image di atas atau di bawah*/
+	margin-top: 70px; /*untuk memberi jarak margin atas dengan ukuran 70px*/
+}
+#menu {
+	padding:56px 0 0 34px;/*untuk memberi jarak padding keseluruhan sisi*/
+	height:30px;/*untuk mengatur panjang div*/
+	background:url(../images/bg1.jpg) no-repeat;/*untuk memasukan gambar dengan ukuran dan tidak di ulang*/
+	position: fixed; /*untuk memberi posisi letak sebuah obyek*/
+	z-index: 999; /*untuk mengatur depan belakangnya suatu elemen dengan ukuran 999*/
+}
+#menu li {
+	float:left;  /*untuk merubah semua yang id menu berada float sebelah kiri*/
+	padding-right:42px;/*untuk memberi jarak kanan antara text yang lain class dan id dengan jarak 42px*/
+}
+#menu li a {
+	display:block; /*untuk memberi tampilan block hitam pada id menu li a*/
+	font-size:24px; /*untuk memberi ukuran dengan ukuran 24px*/
+	color:#05080a; /*untuk memberi warna font */
+	line-height:1.2em; /*untuk memberi garis dengan 1.2*/
+	text-decoration:none; /*untuk memberikan tulisan tanpa text-decoration*/
+}
+#menu li span {
+	font-size:30px; /*untuk memberi ukuran text dengan 30px*/
+	display:inline-block;/*untuk memberi tampilan block hitam pada id menu li a*/
+	margin-top:-4px; /*untuk memberi jarak sisi luar atas dengan ukuran -4px*/
+}
+#menu li a:hover, #menu #menu_active a {
+	color:#6a0000; /*untuk memberi warna kepada id menu*/
+}
+#content {
+}
+.pad_left1 {
+	padding-left:12px; /*untuk memberi jarak kirin antara text yang lain class dengan jarak 12px*/
+}
+.pad_left2 {
+	padding-left:50px;/*untuk memberi jarak kirin antara text yang lain class dengan jarak 50px*/
+}
+.pad {
+	padding:0 12px;/*untuk memberi jarak semua sisi antara text yang lain class dengan jarak 0 12px*/
+}
+.pad_bot1 {
+	padding-bottom:13px;/*untuk memberi jarak bawah sisi antara text yang lain class dengan jarak 13px*/
+}
+.marg_right1 {
+	margin-right:10px;/*untuk memberi jarak margin kanan dengan ukuran 10px*/
+}
+.pad_top1 {
+	padding-top:25px;/*untuk memberi jarak atas sisi antara text yang lain class dengan jarak 25px*/
+}
+#slider {
+	margin-top:6px;/*untuk memberi jarak margin atas dengan ukuran 6px*/
+	height:260px; /*untuk memberi ukuran panjang dengan 260px*/
+	width:100%; /*untuk memberi ukuran lebar dengan 100%*/
+	overflow:hidden; /*untuk menyembunyikan text atau gambar yang d croll */
+	background:url(../images/bg_slider.png) 0 0 no-repeat;
+	overflow:hidden;/*untuk menyembunyikan text atau gambar yang d croll */
+	padding-bottom:14px;/*untuk memberi jarak bawah sisi antara text yang lain class dengan jarak 14px*/
+}
+#for_img {
+	padding-left:91px;/*untuk memberi jarak kiri sisi antara text yang lain class dengan jarak 91px*/
+	padding-top:14px;/*untuk memberi jarak atas sisi antara text yang lain class dengan jarak 14px*/
+	width:342px;/*untuk memberi ukuran lebar dengan 342px*/
+	height:225px; /*untuk memberi ukuran panjang dengan 225px*/
+	overflow:hidden;/*untuk menyembunyikan text atau gambar yang d croll */
+	padding-right:77px;/*untuk memberi jarak kanan sisi antara text yang lain class dengan jarak 77px*/
+}
+#nivo_slider {
+	position:relative;
+	width:342px;/*untuk memberi ukuran lebar dengan 342px*/
+	height:225px;/*untuk memberi ukuran panjang dengan 225px*/
+	z-index:88;/*untuk mengatur depan belakangnya suatu elemen dengan ukuran 88*/
+}
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px; /*memberi ukuran atas 0*/
+	left:0px;/*memberi ukuran kiri 0*/
+	width:100%;/*untuk memberi ukuran lebar dengan 100%*/
+	height:100%;/*untuk memberi ukuran panjang dengan 225px*/
+	border:0; /*untuk memberi garis border dengan ukuran 0px*/
+	padding:0; /*untuk memberi jarak antar text dengan ukuran 0px*/
+	margin:0; /*untuk memberi margin dengan keseluruhan sisi 0px*/
+	z-index:60; /*untuk mengatur depan belakangnya suatu elemen dengan ukuran 60*/
+	display:none;/* untuk menampilkan sebuah text atau gambar dengan format none atau tidak menggunakan sama sekali*/
+}
+.nivo-slice {
+	display:block;/*untuk memberi tampilan block hitam pada class nivo-slice*/
+	position:absolute;
+	z-index:50;/*untuk mengatur depan belakangnya suatu elemen dengan ukuran 50*/
+	height:100%;/*untuk memberi ukuran panjang dengan 100%*/
+}
+.nivo-directionNav a {
+	position:absolute;
+	top:90px;/*memberi ukuran atas 0*/
+	z-index:99;/*untuk mengatur depan belakangnya suatu elemen dengan ukuran 50*/
+	cursor:pointer;
+	text-indent:-5000px;
+	width:52px;/*untuk memberi ukuran lebar dengan 52px*/
+	height:45px;/*untuk memberi ukuran panjang dengan 45px*/
+	display:block;/*untuk memberi tampilan block hitam pada class nivo-diretioNav*/
+}
+.nivo-prevNav {
+	left:-77px;;/*memberi ukuran kiri -77*/
+	background:url(../images/marker_left.png) right 0 no-repeat; /*untuk input sebuah gambar pada class tersebut dengan format kanan tidak berulang*/
+}
+.nivo-prevNav:hover, .nivo-nextNav:hover {
+	background-position:bottom; /*untuk melokasikan background posisi di bawah*/
+}
+.nivo-nextNav {
+	right:-77px;/*memberi ukuran kanan -77px*/
+	background:url(../images/marker_right.png) left 0 no-repeat;/*untuk input sebuah gambar pada class tersebut dengan format kiri tidak berulang*/
+}
+.nivo-controlNav {
+	position:absolute;
+	z-index:99;/*untuk mengatur depan belakangnya suatu elemen dengan ukuran 99*/
+	right:0;/*memberi ukuran kanan 0px*/
+	bottom:0px;/*memberi ukuran bawah 0px*/
+	padding:10px;/*untuk memberi jarak padding keseluruhan sisi*/
+	background:url(../images/bg_pagination.png) repeat;/*untuk input sebuah gambar pada class tersebut dengan format berulang*/
+	padding-left:222px;/*untuk memberi jarak kiri sisi antara text yang lain class dengan jarak 222px*/
+}
+.nivo-controlNav a {
+	position:relative;
+	z-index:99;/*untuk mengatur depan belakangnya suatu elemen dengan ukuran 99*/
+	cursor:pointer;
+	width:19px; /*untuk memberi ukuran lebar dengan 19px*/
+	height:19px;/*untuk mengatur panjang div*/
+	float:left;/*untuk tampilan float  kiri*/
+	margin-left:3px;/*untuk mengatur jarak margin kiri dengan ukuran 3px*/
+	background:url(../images/buttons.png) no-repeat;/*untuk input sebuah gambar pada class tersebut dengan format kanan tidak berulang*/
+	font-size:12px;/*untuk mengatur ukuran font tertentu*/
+	text-decoration:none;/*untuk memberikan tulisan tanpa text-decoration*/
+	color:#fff;/*untuk mengatur warna font*/
+	text-align:center;
+	line-height:19px; /*untuk memberi ukuran panjang suatu garis*/
+}
+.nivo-controlNav a.active, .nivo-controlNav a:hover {
+	color:#ab0000;/*untuk mengatur warna font*/
+	font-weight:bold;
+}
+.font1 {
+	font-size:16px;/*untuk mengatur ukuran font tertentu*/
+}
+.font2 {
+	font-size:12px;/*untuk mengatur ukuran font tertentu*/
+	font-weight:bold;
+	color:#ab0000;/*untuk mengatur warna font*/
+}
+.ul_works {
+	padding-bottom:3px;/*untuk memberi jarak margin bawah*/
+}
+.ul_works li {
+	padding-bottom:14px;/*untuk memberi jarak margin bawah*/
+}
+.tweets {
+	color:#fff;/*untuk mengatur warna font*/
+	padding:7px 20px 0 11px;/*untuk memberi jarak padding keseluruhan sisi*/
+}
+.tweets a {
+	text-decoration:none;/*untuk memberikan tulisan tanpa text-decoration*/
+	color:#ab0000;/*untuk mengatur warna font*/
+}
+.tweets a:hover {
+	text-decoration:underline;/*untuk memberikan tulisan dengan menggunakan underline*/
+}
+.img1 {
+	padding-top:12px;/*untuk memberi jarak atas sisi antara text yang lain class dengan jarak 12px*/
+}
+.img1 figure {
+	float:left;/*untuk tampilan float  kiri*/
+	margin-right:24px;/*untuk memberi jarak margin kanan dengan ukuran 24px*/
+	padding-left:5px;/*untuk memberi jarak kiri sisi antara text yang lain class dengan jarak 5px*/
+}
+.list2 {
+	padding:10px 0 15px 0;/*untuk memberi jarak padding keseluruhan sisi*/
+}
+.list2 li {
+	line-height:30px;/*untuk memberi ukuran panjang suatu garis*/
+}
+.list2 li a {
+	padding-left:34px;/*untuk memberi jarak kiri sisi antara text yang lain class dengan jarak 34px*/
+	background:url(../images/marker_2.png) 0 5px no-repeat;/*untuk input sebuah gambar pada class tersebut dengan format kanan tidak berulang*/
+	display:inline-block;/*untuk memblok sebuah text dengan inline*/
+}
+.link1 {
+	display:inline-block;/*untuk memblok sebuah text dengan inline*/
+	font-size:12px;/*untuk mengatur ukuran font tertentu*/
+	font-weight:bold;
+	text-decoration:none;/*untuk memberikan tulisan tanpa text-decoration*/
+	padding-left:30px;/*untuk memberi jarak kiri sisi antara text yang lain class dengan jarak 30px*/
+	background:url(../images/marker_3.png) 1px 0 no-repeat;/*untuk input sebuah gambar pada class tersebut dengan format kanan tidak berulang*/
+	margin-top:5px;/*untuk memberi jarak margin atas dengan ukuran 5px*/
+}
+.link1:hover {
+	color:#000;/*untuk mengatur warna font*/
+}
+.lightbox-image {
+	position:relative;
+	overflow:hidden;/*untuk menyembunyikan tampilan yang di sembunyikan*/
+	display:block;/*untuk memblok sebuah text*/
+}
+
+.lightbox-image img {
+	position:relative;
+	z-index:2;/*untuk mengatur depan belakangnya suatu elemen dengan ukuran 2*/
+}
+.lightbox-image span {
+	display:block;/*untuk memblok sebuah text*/
+	position:absolute;
+	left:0;/*memberi ukuran kiri 0px*/
+	top:0;/*memberi ukuran atas 0px*/
+	width:100%; /*untuk memberi ukuran lebar dengan 100%*/
+	height:100%;/*untuk mengatur panjang div*/
+	background:url(../images/magnify.png) no-repeat 50% 50%;/*untuk input sebuah gambar pada class tersebut dengan format kanan tidak berulang*/
+	z-index:1;/*untuk mengatur depan belakangnya suatu elemen dengan ukuran 1*/
+}
+.pp_description {
+	padding-bottom:0;/*untuk memberi jarak margin bawah*/
+}
+.pp_content {
+}
+#page2 .pad_top2 {
+	padding-top:10px;/*untuk memberi jarak atas sisi antara text yang lain class dengan jarak 10px*/
+}
+#page2 .col3 .pad {
+	padding:5px 0 0 8px;/*untuk memberi jarak padding keseluruhan sisi*/
+}
+#page3 .cols p {
+	padding:6px 0 0 10px;/*untuk memberi jarak padding keseluruhan sisi*/
+}
+#page3 .cols strong {
+	display:block;/*untuk memblok sebuah text*/
+	padding-bottom:6px;/*untuk memberi jarak margin bawah*/
+}
+#page3 .pad_bot1 {
+	padding-bottom:15px;/*untuk memberi jarak margin bawah*/
+}
+footer {
+	width:100%; /*untuk memberi ukuran lebar dengan 100%*/
+	overflow:hidden;/*untuk menyembunyikan tampilan yang di sembunyikan*/
+	padding:0 0 74px 0;/*untuk memberi jarak padding keseluruhan sisi*/
+}
+footer a {
+}
+footer a:hover {
+}
+.list1 li {
+	line-height:30px;/*untuk memberi ukuran panjang suatu garis*/
+}
+.list1 a {
+	color:#fff;/*untuk mengatur warna font*/
+	text-decoration:none;/*untuk memberikan tulisan tanpa text-decoration*/
+	padding-left:15px;/*untuk memberi jarak kiri sisi antara text yang lain class dengan jarak 15px*/
+	background:url(../images/marker_1.gif) 0 6px no-repeat;
+}
+.list1 a:hover {
+	color:#ab0000;/*untuk mengatur warna font*/
+}
+.icons li {
+	line-height:30px;/*untuk memberi ukuran panjang suatu garis*/
+}
+.icons a {
+	color:#fff;/*untuk mengatur warna font*/
+	text-decoration:none;/*untuk memberikan tulisan tanpa text-decoration*/
+}
+.icons a:hover {
+	color:#ab0000;/*untuk mengatur warna font*/
+}
+.icons img {
+	float:left;/*untuk tampilan float  kiri*/
+	margin-right:14px;/*untuk memberi jarak margin kanan dengan ukuran 14px*/
+	margin-top:7px;/*untuk memberi jarak margin atas dengan ukuran 7px*/
+}
+#newsletter {
+	background:url(../images/newsletter_bg.png) no-repeat;
+	width:286px; /*untuk memberi ukuran lebar dengan 286px*/
+	float:left;/*untuk tampilan float  kiri*/
+	margin-left:51px;/*untuk mengatur jarak margin kiri dengan ukuran 51px*/
+	height:360px;/*untuk mengatur panjang div*/
+	margin-top:25px;/*untuk memberi jarak margin atas dengan ukuran 25px*/
+}
+#newsletter h5 {
+	padding-top:98px;/*untuk memberi jarak atas sisi antara text yang lain class dengan jarak 98px*/
+	padding-left:15px;/*untuk memberi jarak kiri sisi antara text yang lain class dengan jarak 15px*/
+}
+#newsletter form {
+	padding-left:71px;/*untuk memberi jarak kiri sisi antara text yang lain class dengan jarak 71px*/
+	padding-top:5px;/*untuk memberi jarak atas sisi antara text yang lain class dengan jarak 5px*/
+}
+#newsletter .wrapper {
+	height:28px;/*untuk mengatur panjang div*/
+}
+#newsletter .input {
+	width:144px; /*untuk memberi ukuran lebar dengan 144px*/
+	background:none;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#000;/*untuk mengatur warna font*/
+	height:18px;/*untuk mengatur panjang div*/
+}
+#newsletter a {
+	font-weight:bold;
+	color:#fff;/*untuk mengatur warna font*/
+	text-decoration:none;/*untuk memberikan tulisan tanpa text-decoration*/
+	margin-left:27px;/*untuk mengatur jarak margin kiri dengan ukuran 27px*/
+	padding:5px 6px 30px 6px;/*untuk memberi jarak padding keseluruhan sisi*/
+	display:inline-block;/*untuk memblok sebuah text dengan inline*/
+}
+.privacy {
+	float:left;/*untuk tampilan float  kiri*/
+	padding-left:15px;/*untuk memberi jarak kiri sisi antara text yang lain class dengan jarak 15px*/
+	width:350px; /*untuk memberi ukuran lebar dengan 350px*/
+	font-size:12px;/*untuk mengatur ukuran font tertentu*/
+	color:#a3a3a3;/*untuk mengatur warna font*/
+	margin-top:-3px;/*untuk memberi jarak margin atas dengan ukuran -3px*/
+}
+.privacy a {
+	color:#a3a3a3;/*untuk mengatur warna font*/
+	text-decoration:none;/*untuk memberikan tulisan tanpa text-decoration*/
+}
+.footer_logo {
+	font-size:26px;/*untuk mengatur ukuran font tertentu*/
+	line-height:1.2em;/*untuk memberi ukuran panjang suatu garis*/
+	float:right;/*untuk tampilan float  kanan*/
+	color:#fff;/*untuk mengatur warna font*/
+	text-transform:uppercase;
+	text-decoration:none;/*untuk memberikan tulisan tanpa text-decoration*/
+	margin-right:20px;/*untuk memberi jarak margin kanan dengan ukuran 20px*/
+}
+.footer_logo span {
+	color:#ab0000;/*untuk mengatur warna font*/
+}
+#ContactForm {
+	padding:18px 0 0 25px;/*untuk memberi jarak padding keseluruhan sisi*/
+	width:497px; /*untuk memberi ukuran lebar dengan 497px*/
+}
+#ContactForm .wrapper {
+	min-height:30px;/*untuk memberi ukuran panjang suatu garis*/
+}
+#ContactForm .textarea_box {
+	height: 260px;/*untuk mengatur panjang div*/
+}
+#ContactForm span {
+	font-weight:bold;
+	width:121px; /*untuk memberi ukuran lebar dengan 121px*/
+	float:left;/*untuk tampilan float  kiri*/
+	line-height:26px;/*untuk memberi ukuran panjang suatu garis*/
+}
+#ContactForm a {
+	float:right;/*untuk tampilan float  kanan*/
+	background:url(../images/send_button.png) no-repeat;/*untuk input sebuah gambar pada class tersebut dengan format kanan tidak berulang*/
+	width:119px; /*untuk memberi ukuran lebar dengan 119px*/
+	height:38px;/*untuk mengatur panjang div*/
+	text-indent:-9999px;
+}
+#ContactForm b {
+	float: left;/*untuk tampilan float  kiri*/
+	background:url(../images/Images_button.png) no-repeat;/*untuk input sebuah gambar pada class tersebut dengan format kanan tidak berulang*/
+	width: 119px; /*untuk memberi ukuran lebar dengan 119px*/
+	height: 40px;/*untuk mengatur panjang div*/
+	text-indent: -9999px;
+	margin-left: 120px;/*untuk mengatur jarak margin kiri dengan ukuran 120px*/
+	}
+#ContactForm .input {
+	width:356px; /*untuk memberi ukuran lebar dengan 356px*/
+	height:18px;/*untuk mengatur panjang div*/
+	background:url(../images/bg_form.png) repeat;/*untuk input sebuah gambar pada class tersebut dengan format kanan tidak berulang*/
+	padding:4px 10px;/*untuk memberi jarak padding keseluruhan sisi*/
+	color:#000;/*untuk mengatur warna font*/
+	font:14px Arial, Helvetica, sans-serif;
+	margin:0;
+}
+#ContactForm textarea {
+	overflow:auto;/*untuk menyembunyikan tampilan yang di sembunyikan*/
+	width:356px; /*untuk memberi ukuran lebar dengan 356px*/
+	height:250px;/*untuk mengatur panjang div*/
+	background:url(../images/bg_form.png) repeat;/*untuk input sebuah gambar pada class tersebut dengan format kanan tidak berulang*/
+	padding:4px 10px;/*untuk memberi jarak padding keseluruhan sisi*/
+	color:#000;/*untuk mengatur warna font*/
+	font:14px Arial, Helvetica, sans-serif;
+	margin:0;
+}
+
+.kotak {
+	width: 80px; /*untuk memberi ukuran lebar dengan 80px*/
+	height: 100px;/*untuk mengatur panjang div*/
+	margin: 0px 10px 10px 0px;
+	float: left;/*untuk tampilan float  kiri*/
+	position: relative;
+}
+.kotak img{
+	border: 1px solid white;
+	position: relative;
+	
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.kotak:hover img{
+	border: 5px solid white;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+
+	-moz-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}

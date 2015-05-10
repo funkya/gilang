@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'ActionManRegular';
+	src: url('font/Action-Man/Action_Man_webfont.eot');
+	src: url('font/Action-Man/Action_Man_webfont.eot?#iefix') format('embedded-opentype'),
+		 url('font/Action-Man/Action_Man_webfont.woff') format('woff'),
+		 url('font/Action-Man/Action_Man_webfont.ttf') format ('truetype'),
+		 url('font/Action-Man/Action_Man_webfont.svg#ActionManRegular') format ('svg');
+
+		 font-weight: normal;
+		 font-style: normal;
+}
+
+#content h1 {
+	font-family: ActionManRegular ,arial;
+	font-size: 50px;
+	margin: 20px 0px;
+}
+
+body {
+	font-family: georgia; /*untuk mengatur jenis style font*/
+	margin: 0; /*untuk mengatur jarak margin: */
+	padding: 0; /*untuk mengatur jarak padding: */
+}
+
+
+#page-wrap {
+	/*untuk mengatur lebar div*/: 700px;/*untuk mengatur lebar div*/
+	margin: 0 auto;
+	margin-top: 115px; /* tambahan */
+	padding: 20px;/*untuk mengatur jarak paddingn: */
+	background: white;/*untuk memberi warna background*/
+	position: relative;
+}
+
+p {
+	margin: 0 0 20px 0;/*untuk mengatur jarak margin: */
+}
+
+
+
+.login{
+	margin: auto;/*untuk mengatur jarak margin: */
+	width: 300px;/*untuk mengatur lebar div*/
+	height: auto; /*untuk mengatur panjang dengan auto*/
+	background-color: #333; /*untuk memberi warna pada background*/
+	margin-top: 200px; /*untuk memberi margin atas dengan ukuran 200px*/
+	padding: 30px;/*untuk mengatur jarak paddingn: */
+
+}
+.center {
+	margin: 0 auto;
+	padding: 40px;/*untuk mengatur jarak paddingn: */
+	background-color: #ddd; /*untuk memberi warna pada background*/
+}
+.ghost {
+	width: 200px;/*untuk mengatur lebar div*/
+	padding: 8px;/*untuk mengatur jarak paddingn: */
+	color: #fff; /*untuk memberi warna pada font*/
+	text-align: center; /*untuk melokasikan sebuah text tengah*/
+	outline: none;
+	margin-bottom: 10px;/*untuk memberi margin bawah dengan ukuran 10px*/
+	font-size: 15px; /*untuk memberi ukuran pada sebuah text 15px*/
+	color: black; /*untuk  memberi warna pada sebuah font*/
+	cursor: hand;
+	border-radius: 20px; /*untuk memberi format garis border yang bertife radius*/
+	border: 1px solid #333;/*untuk memberi format garis border yang bertife solid*/
+}
+.btn {
+	width: 120px;/*untuk mengatur lebar div*/
+	padding: 10px;/*untuk mengatur jarak paddingn: */
+	color: #fff;/*untuk  memberi warna pada sebuah font*/
+	border: 1px solid #333;/*untuk memberi format garis border yang bertife solid*/
+	text-align: center;/*untuk melokasikan sebuah text tengah*/
+	font-size: 15px;/*untuk memberi ukuran pada sebuah text 15px*/
+	color: black;/*untuk  memberi warna pada sebuah font*/
+	border-radius: 20px;/*untuk memberi format garis border yang bertife radius*/
+	background-color: #333;/*untuk memberi warna pada background*/
+
+}
+h4{
+	font-size: 20px;/*untuk memberi ukuran pada sebuah text 15px*/
+	text-align: center;/*untuk melokasikan sebuah text tengah*/
+	font-family: arial;/*untuk mengatur jenis style font*/
+	margin-top: 0px; /*untuk memberi margin atas dengan ukuran 0px*/
+}
